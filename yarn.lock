@@ -1153,17 +1153,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@types/yargs@^16.0.0":
-  version "16.0.4"
-  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-16.0.4.tgz#26aad98dd2c2a38e421086ea9ad42b9e51642977"
-  integrity sha512-T8Yc9wt/5LbJyCaLiHPReJa0kApcIgJ7Bn735GjItUfh08Z1pJvu8QZqb9s+mMvKV6WUQRV7K2R46YbjMXTTJw==
-  dependencies:
-    "@types/yargs-parser" "*"
 
-"@uirouter/core@6.0.7":
-  version "6.0.7"
-  resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-6.0.7.tgz#a66743dceb13a56d8908474ff891d63e5d5a2b01"
-  integrity sha512-KUTJxL+6q0PiBnFx4/Z+Hsyg0pSGiaW5yZQeJmUxknecjpTbnXkLU8H2EqRn9N2B+qDRa7Jg8RcgeNDPY72O1w==
 
 "@uirouter/publish-scripts@^2.5.5":
   version "2.5.5"
@@ -2916,9 +2906,9 @@ decimal.js@^10.2.1:
   integrity sha512-V0pfhfr8suzyPGOx3nmq4aHqabehUZn6Ch9kyFpV79TGDTWFmHqUqXdabR7QHqxzrYolF4+tVmJhUG4OURg5dQ==
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 decompress-response@^4.2.0:
   version "4.2.1"
@@ -3091,18 +3081,10 @@ end-of-stream@^1.1.0:
   dependencies:
     once "^1.4.0"
 
-enhanced-resolve@^5.0.0, enhanced-resolve@^5.8.0:
+enhanced-resolve@^5.0.0, enhanced-resolve@^5.7.0, enhanced-resolve@^5.8.0:
   version "5.8.2"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.8.2.tgz#15ddc779345cbb73e97c611cd00c01c1e7bf4d8b"
   integrity sha512-F27oB3WuHDzvR2DOGNTaYy0D5o0cnrv8TeI482VM4kYgQd/FT9lUQwuNsJ0oOHtBUq7eiW5ytqzp7nBFknL+GA==
-  dependencies:
-    graceful-fs "^4.2.4"
-    tapable "^2.2.0"
-
-enhanced-resolve@^5.7.0:
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.7.0.tgz#525c5d856680fbd5052de453ac83e32049958b5c"
-  integrity sha512-6njwt/NsZFUKhM6j9U8hzVyD4E4r0x7NQzhTCbcWOJ0IQjNSAoalWmb0AE51Wn+fwan5qVESWi7t2ToBxs9vrw==
   dependencies:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
@@ -4975,23 +4957,7 @@ methods@~1.1.2:
   resolved "https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
 
-micromatch@^4.0.0:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.2.tgz#4fcb0999bf9fbc2fcbdd212f6d629b9a56c39259"
-  integrity sha512-y7FpHSbMUMoyPbYUSzO6PaZ6FyRnQOpHuKwbo1G+Knck95XVU4QAiKdGEnj5wwoS7PlOgthX/09u5iFJ+aYf5Q==
-  dependencies:
-    braces "^3.0.1"
-    picomatch "^2.0.5"
 
-micromatch@^4.0.2:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.5.tgz#bc8999a7cbbf77cdc89f132f6e467051b49090c6"
-  integrity sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==
-  dependencies:
-    braces "^3.0.2"
-    picomatch "^2.3.1"
-
-micromatch@^4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.4.tgz#896d519dfe9db25fce94ceb7a500919bf881ebf9"
   integrity sha512-pRmzw/XUcwXGpD9aI9q/0XOwLNygjETJ8y0ao0wdqprrzDa4YnxLcz7fQRZr8voh8V10kGhABbNcHVk5wHgWwg==
@@ -5590,12 +5556,7 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
-picocolors@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
-  integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
 
-picomatch@^2.0.4, picomatch@^2.0.5:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
   integrity sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==
@@ -6185,21 +6146,21 @@ semver-regex@^3.1.2:
   integrity sha512-bXWyL6EAKOJa81XG1OZ/Yyuq+oT0b2YLlxx7c+mrdYPaPbnj6WgVULXhinMIeZGufuUBu/eVRqXEhiv4imfwxA==
 
 "semver@2 || 3 || 4 || 5", semver@^5.4.1, semver@^5.5.0:
-  version "5.7.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
-  integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
+  version "5.7.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.2.tgz#48d55db737c3287cd4835e17fa13feace1c41ef8"
+  integrity sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==
 
 semver@7.x, semver@^7.3.2, semver@^7.3.4:
-  version "7.3.4"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.4.tgz#27aaa7d2e4ca76452f98d3add093a72c943edc97"
-  integrity sha512-tCfb2WLjqFAtXn4KEdxIhalnRtoKFN7nAwj0B3ZXCbQloV2tq5eDbcTmT68JJD3nRJq24/XgxtQKFIpQdtvmVw==
+  version "7.5.4"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
+  integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
   dependencies:
     lru-cache "^6.0.0"
 
 semver@^6.0.0, semver@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
-  integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
+  integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
 send@0.18.0:
   version "0.18.0"
@@ -6866,9 +6827,9 @@ ts-jest@^27.0.4:
     yargs-parser "20.x"
 
 ts-loader@^9.2.3:
-  version "9.2.3"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-9.2.3.tgz#dc3b6362a4d4382493cd4f138d345f419656de68"
-  integrity sha512-sEyWiU3JMHBL55CIeC4iqJQadI0U70A5af0kvgbNLHVNz2ACztQg0j/9x10bjjIht8WfFYLKfn4L6tkZ+pu+8Q==
+  version "9.4.4"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-9.4.4.tgz#6ceaf4d58dcc6979f84125335904920884b7cee4"
+  integrity sha512-MLukxDHBl8OJ5Dk3y69IsKVFRA/6MwzEqBgh+OXMPB/OD01KQuWPFd1WAQP8a5PeSCAxfnkhiuWqfmFJzJQt9w==
   dependencies:
     chalk "^4.1.0"
     enhanced-resolve "^5.0.0"
